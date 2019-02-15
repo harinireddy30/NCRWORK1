@@ -1,0 +1,6 @@
+develop a c program to perform the following tasks:
+1)count the no of alphabets,digits,spaces and special characters in a file.
+2)remove all comments(both single line and multiline) from the file content.
+3)find a matching word in th file and rotate the word and place in in the same file.
+4)replace all the tabs present in the file with \t.
+Implement all of them using multifile format.

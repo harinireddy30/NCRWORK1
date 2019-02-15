@@ -1,0 +1,41 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+void comments()
+{
+	FILE *fptr;
+	FILE *fptr2;
+	fptr = fopen("file1.txt", "r+");
+	fptr2 = fopen("file2.txt", "w");
+	char c;
+	do
+	{
+		c = getchar(fptr);
+		if (c == '/')        //checking for a single slash
+		{
+			c = getchar(fptr);
+			if (c == '/')     //checking for single line comment
+			{
+				while (c != '\n')  //checking for end of single line comment
+					c = getchar(fptr);
+			}
+			if (c == '*')        //checking for multiline comment
+			{
+				c = getchar(fptr);
+				while (1)
+				{
+					while (c != '*')
+					{
+						c = getchar(fptr);
+					}
+					if (c == '/')
+					{
+						c = getchar(fptr);
+						break;
+					}
+				}
+
+			}
+		}
+		fputc(c, fptr2);
+	} while (!feof(fptr));
+}
