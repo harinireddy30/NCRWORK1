@@ -1,0 +1,5 @@
+﻿  q2c.cpp
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question2copy\q2c.cpp(38): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question2copy\q2c.cpp(40): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question2copy\q2c.cpp(47): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  question2copy.vcxproj -> C:\Users\Harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\Debug\question2copy.exe

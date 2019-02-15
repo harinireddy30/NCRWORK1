@@ -1,0 +1,6 @@
+﻿  question5.cpp
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question5\question5.cpp(33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question5\question5.cpp(34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question5\question5.cpp(44): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question5\question5.cpp(59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  question5.vcxproj -> C:\Users\Harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\Debug\question5.exe

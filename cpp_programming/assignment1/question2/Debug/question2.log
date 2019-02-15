@@ -1,0 +1,5 @@
+﻿  q2.cpp
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question2\q2.cpp(31): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question2\q2.cpp(33): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question2\q2.cpp(40): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  question2.vcxproj -> C:\Users\Harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\Debug\question2.exe

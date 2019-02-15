@@ -1,0 +1,4 @@
+﻿  q6.cpp
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question6\q6.cpp(23): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\question6\q6.cpp(41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  question6.vcxproj -> C:\Users\Harini\source\repos\harinireddy30\ncrwork\cpp_programming\assignment1\Debug\question6.exe
