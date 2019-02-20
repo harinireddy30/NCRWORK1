@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{461903B2-76E2-4CFE-A1E8-99ACE79A9F76}</ProjectGuid>
-    <RootNamespace>q8c</RootNamespace>
+    <ProjectGuid>{FEF93F8A-6257-4254-AD9C-A8B634A96378}</ProjectGuid>
+    <RootNamespace>ques8</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,7 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="q8.c" />
+    <ClCompile Include="ques8.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -4,5 +4,5 @@ class employee {
 	char *name;
 	int salary;
 public:
-	employee(char *,)
+
 };
