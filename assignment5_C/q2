@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct s1
+{
+	int x;
+	char c;
+};
+union u1
+{
+	int x;
+	char c;
+};
+void main()
+{
+	printf("The size of struct s1 is %d bytes",sizeof(struct s1));
+	printf("The size of union u1 is %d bytes",sizeof(union u1));
+}
