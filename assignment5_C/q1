@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct time
+{
+	int hr;
+	int min;
+	int sec;
+};
+void main()
+{
+	struct time t1;	
+	printf("Enter hours ");
+	scanf("%d",&t1.hr);
+	printf("Enter minutes ");
+	scanf("%d",&t1.min);
+	printf("Enter seconds ");
+	scanf("%d",&t1.sec);
+	printf("time in strct time are:\n");
+	printf("hr:min:sec=%d:%d:%d",t1.hr,t1.min,t1.sec);
+}
