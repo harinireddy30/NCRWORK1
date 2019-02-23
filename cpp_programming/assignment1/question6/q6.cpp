@@ -1,3 +1,4 @@
+/*distance between two points*/
 #include<iostream>
 using namespace std;
 class point {

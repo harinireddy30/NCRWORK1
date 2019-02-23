@@ -11,7 +11,7 @@ public:
 		cin >> rollno;
 		cin >> salary;
 	}
-	friend ostream& operator<<(ostream &output, employee &e);
+	friend ostream& operator<<(ostream &output, employee &e);                              //i/o overloading
 };
 ostream& operator<<(ostream &output, employee &e)
 {
@@ -21,11 +21,11 @@ ostream& operator<<(ostream &output, employee &e)
 void main()
 {
 	int x, i;
-	employee e1[5];
+	employee e1[5];                                                                      //array of 5 objects
 	for (i = 0; i < 5; i++)
 	{
-		e1[i].input_data();
+		e1[i].input_data();                                                             //input data of each object  
 		cout << "The details are:" << e1[i]<< endl;
 	}
-	cin >> x;
+	cin >> x;                                                                           //system pause
 }

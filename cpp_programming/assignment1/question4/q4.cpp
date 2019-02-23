@@ -1,3 +1,4 @@
+/*use of inline functions*/
 #include<iostream>
 using namespace std;
 inline int add(int x, int y)

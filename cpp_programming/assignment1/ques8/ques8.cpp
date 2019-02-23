@@ -1,16 +1,17 @@
+/*order of invocation of constructors and destructors*/
 #include<iostream>
 using namespace std;
 class employee {
 	char name;
 	int salary;
 public:
-	employee(char c, int x)
+	employee(char c, int x)                                //parameterized constructor
 	{
 		name = c;
 		salary = x;
 		cout << "Constructor called" << endl;
 	}
-	~employee()
+	~employee()                                           //destructor of employee class
 	{
 		cout << "Destructor called" << endl;
 	}

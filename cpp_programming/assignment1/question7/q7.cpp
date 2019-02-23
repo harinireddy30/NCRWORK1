@@ -1,3 +1,4 @@
+/*matrix-vector multiplication*/
 #include<iostream>
 using namespace std;
 class vector;

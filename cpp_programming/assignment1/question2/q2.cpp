@@ -9,13 +9,10 @@ class student {
 	int marks2;
 	int marks3;
 public:
-	void setdata()
+	void setdata(char *n)
 	{
-		char n[20];
-		cout << "Enter the student_name" << endl;
-		cin >> n;
-		studentname = (char *)malloc((sizeof(char)*(strlen(n) + 1)));
-		strcpy(studentname, n);
+		studentname = (char *)malloc((sizeof(char)*(strlen(n) + 1)));     //assigning pointer to dyhnamically allocated memory
+		strcpy(studentname, n);                                           //byte copying 
 		cout << "Enter the marks of students" << endl;
 		cin >> marks1;
 		cin >> marks2;
@@ -23,7 +20,7 @@ public:
 	}
 	void display()
 	{
-		cout << "student name=" << studentname << "marks:" << marks1 << " " << marks2 << " " << marks3 << endl;
+		cout << "student name=" << studentname <<" "<< "marks:" << marks1 << " " << marks2 << " " << marks3 << endl;
 	}
 	int cal_avg()
 	{
@@ -35,21 +32,26 @@ public:
 	{
 		if (x >= 60)
 			cout << "First class" << endl;
-		else if (50 <= x < 60)
+		else if (49 < x && x < 60)
 			cout << "Second class" << endl;
-		else if (40 <= x < 50)
+		else if (39 < x && x< 50)
 			cout << "Third class" << endl;
-		else
+		else if (0 <= x && x < 40)
 			cout << "Failed" << endl;
+		else
+			cout << "Enter valid marks";
 	}
 };
 void main()
 {
 	int x, y;
 	student s1;
-	s1.setdata();
+	char n[20];                                          //character array for name
+	cout << "Enter the student_name" << endl;
+	cin >> n;                                            //input name string
+	s1.setdata(n);
 	x = s1.cal_avg();
-	s1.compute_grade(x);
 	s1.display();
+	s1.compute_grade(x);
 	cin >> y;
 }

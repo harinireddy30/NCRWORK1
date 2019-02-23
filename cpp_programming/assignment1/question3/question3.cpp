@@ -1,3 +1,4 @@
+/*addition and multiplication of objects in complex class*/
 #include<iostream>
 using namespace std;
 class complex {
@@ -6,11 +7,11 @@ class complex {
 public:
 	complex()
 	{
-		real = img = 0;
+		real = img = 0;                  
 	}
 	complex(float x)
 	{
-		real = img = x;
+		real = img = x;                  
 	}
 	complex(float x,float y)
 	{
@@ -21,7 +22,7 @@ public:
 	{
 		cout << "real=" << real << "img=" << img << endl;
 	}
-	friend complex add_complex(complex &a, complex &b);
+	friend complex add_complex(complex &a, complex &b);   //declaration of friend functions to perform addition n multiplication
 	friend complex mul_complex(complex &a, complex &b);
 };
 complex add_complex(complex &a, complex &b);

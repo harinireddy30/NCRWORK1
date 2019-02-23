@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class distance2;
+class distance2;                         //class definition of distance2
 class distance1 {
 	float metres;
 	float centimetres;
@@ -48,7 +48,7 @@ void main()
 	distance2 d2(1);
 	d2.display2();
 	distance1 d3;
-	d3 = add_distance(d1, d2);
+	d3 = add_distance(d1, d2);                               //result is of type distance1
 	cout << "The sum of the objects is: " << endl;
 	d3.display1();
 	cin >> x;
@@ -56,7 +56,7 @@ void main()
 distance1 add_distance(distance1 &d1, distance2 &d2)
 {
 	distance1 temp;
-	temp.centimetres =(d1.metres)*100 + d2.feet*12*2.54;
+	temp.centimetres =(d1.metres)*100 + d2.feet*12*2.54;  //conversion into metres
 	temp.metres = temp.centimetres / 100;
 	return temp;
 }
